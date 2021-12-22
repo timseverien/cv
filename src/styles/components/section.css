@@ -1,0 +1,28 @@
+.section {
+  display: grid;
+  gap: 2rem;
+  margin-block-end: 2rem;
+
+  background-color: var(--theme-color-background);
+  color: var(--theme-color-text);
+}
+
+@media screen {
+  .section {
+    padding: 2rem;
+    margin-block-end: none;
+  }
+
+  .section:nth-child(even) {
+    --theme-color-background: #222;
+    --theme-color-heading: #fff;
+    --theme-color-text: #fff;
+  }
+}
+
+@media (min-width: 32rem) {
+  .section {
+    gap: 4rem;
+    grid-template-columns: 1fr 5fr;
+  }
+}

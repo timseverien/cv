@@ -6,6 +6,6 @@
 @media (min-width: 60rem) {
   .layout {
     gap: 4rem;
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 1fr 5fr;
   }
 }

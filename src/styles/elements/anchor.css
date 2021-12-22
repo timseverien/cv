@@ -1,0 +1,9 @@
+a {
+  color: var(--theme-color-text);
+}
+
+a:hover,
+a:focus {
+  color: var(--theme-color-text--active);
+  text-decoration: none;
+}
