@@ -1,0 +1,7 @@
+p {
+  margin: 0;
+}
+
+p + p {
+  margin-block-start: 1rem;
+}

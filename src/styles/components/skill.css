@@ -1,0 +1,10 @@
+.skill {
+  display: inline-block;
+
+  background-color: #000;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  margin-block: -0.25rem;
+
+  color: #fff;
+}
