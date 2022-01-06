@@ -1,6 +1,5 @@
 .header {
   padding-block: 2rem;
-  padding-inline: 4rem;
 }
 
 .header__content {
@@ -9,6 +8,12 @@
 
 .header__title {
   margin-block-end: 1rem;
+}
+
+@media screen {
+  .header {
+    padding-inline: 4rem;
+  }
 }
 
 @media (min-width: 60rem) {
