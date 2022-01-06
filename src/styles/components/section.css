@@ -1,6 +1,5 @@
 .section {
   display: grid;
-  gap: 2rem;
   margin-block-end: 2rem;
 
   background-color: var(--theme-color-background);
@@ -9,14 +8,14 @@
 
 @media screen {
   .section {
-    padding: 2rem;
-    margin-block-end: none;
+    padding: 4rem;
+    margin-block-end: 0;
   }
 
   .section:nth-child(even) {
-    --theme-color-background: #222;
-    --theme-color-heading: #fff;
-    --theme-color-text: #fff;
+    --theme-color-background: #fafafa;
+    --theme-color-heading: #000;
+    --theme-color-text: #000;
   }
 }
 

@@ -4,8 +4,8 @@
   list-style-type: none;
 }
 
-.activity-list__item {
-  margin-bottom: 2rem;
+.activity-list__item:not(:last-child) {
+  margin-bottom: 3rem;
 }
 
 .activity-list ul {
