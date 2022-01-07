@@ -4,8 +4,16 @@
   list-style-type: none;
 }
 
-.activity-list__item:not(:last-child) {
-  margin-bottom: 3rem;
+.activity-list__item {
+  break-inside: avoid;
+
+  &:not(:last-child) {
+    margin-block-end: 3rem;
+  }
+}
+
+.activity-list__title {
+  font-size: 1.5rem;
 }
 
 .activity-list ul {

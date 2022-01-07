@@ -1,7 +1,9 @@
+@import 'settings/breakpoints.css';
 @import 'settings/theme.css';
 @import 'settings/typography.css';
 
 @import 'generic/focus.css';
+@import 'generic/print.css';
 @import 'generic/reset.css';
 
 @import 'elements/anchor.css';
@@ -9,11 +11,12 @@
 @import 'elements/bold.css';
 @import 'elements/heading.css';
 @import 'elements/list.css';
+@import 'elements/main.css';
 @import 'elements/paragraph.css';
 
 @import 'components/activity-list.css';
 @import 'components/header.css';
-@import 'components/layout.css';
 @import 'components/section.css';
+@import 'components/skill-group.css';
 @import 'components/skill-list.css';
 @import 'components/visually-hidden.css';
